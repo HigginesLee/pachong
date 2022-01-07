@@ -14,3 +14,4 @@ pardom={
 
 resp=requests.get(url,params=pardom,headers=headers)
 print(resp.json())
+resp.close()
