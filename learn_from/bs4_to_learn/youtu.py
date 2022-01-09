@@ -22,6 +22,6 @@ for a in alist:
     img_name="./picture/"+src.split('/')[-1]
     with open(img_name,'wb') as f:
         f.write(img_resp.content)#返回的是字节
-    print("Over!",img_name)
+    print(img_name,"Over")
     sleep(randint(1,3))
-print('ALL Over')
+print('ALL Successful')
